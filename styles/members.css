@@ -156,3 +156,23 @@ footer{
 footer > p{
     margin: 0;
 }
+
+@media (max-width:700px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .titulosRedes{
+        font-size: 0.7rem;
+    }
+    .navBar > a{
+        font-size: 0.7rem;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap: 350px;
+        justify-items: center;
+    }
+
+}
