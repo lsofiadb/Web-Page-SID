@@ -15,11 +15,7 @@ body{
 
 }
 
-a{
-    text-decoration: none; 
-    color: rgb(255, 255, 255);
-    margin: auto;
-}
+
 
 .navBar{
     background: rgb(99,99,99);
@@ -31,6 +27,12 @@ a{
     -moz-box-shadow: -1px 7px 21px -3px rgba(0,0,0,0.67);
     box-shadow: -1px 7px 21px -3px rgba(0,0,0,0.67);
 
+}
+
+.navBar > a{
+    text-decoration: none; 
+    color: rgb(255, 255, 255);
+    margin: auto;
 }
 
 .container{
@@ -85,12 +87,14 @@ a{
 }
 svg{
     margin: auto 0;
+    height: 100%;
 }
 
 .flex{
     display: flex;
     gap:0.5rem;
 }
+
 
 .imagenEvento{
     width: 100%;
@@ -107,6 +111,7 @@ footer{
     text-align: center;
     color: white;
     padding: 2%;
+    font-size: 1.2rem;
 }
 
 footer > p{
